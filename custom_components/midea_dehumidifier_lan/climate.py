@@ -125,8 +125,8 @@ class AirConditionerEntity(ApplianceEntity, ClimateEntity):
     _attr_fan_modes = FAN_MODES
     _attr_preset_modes = PRESET_MODES
     _attr_swing_modes = SWING_MODES
-    _attr_max_temp = MAX_TARGET_TEMPERATURE
-    _attr_min_temp = MIN_TARGET_TEMPERATURE
+    _attr_max_temp = 30
+    _attr_min_temp = 17
     _attr_precision = PRECISION_HALVES
     _attr_temperature_unit = TEMP_CELSIUS
 
