@@ -1,3 +1,6 @@
+> [!WARNING]
+> This is archived because the fix was merged into the original repository.
+
 This custom component for Home Assistant adds support for Midea air conditioner and dehumidifier appliances via the local area network.
 
 # homeassistant-midea-air-appliances-lan
